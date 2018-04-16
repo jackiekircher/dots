@@ -1,0 +1,6 @@
+[user]
+	email = kircher.jackie@gmail.com
+	name = jackie kircher
+
+[alias]
+  slog  = log --pretty=oneline --abbrev-commit
