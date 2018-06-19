@@ -90,3 +90,7 @@ alias heroku-setup-chase='heroku config:set CLIENT_CHASE_EXTERNAL_ASSET_BASE_URL
 
 # for rake arguments
 alias rake='noglob rake'
+
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
