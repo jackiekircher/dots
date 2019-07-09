@@ -84,9 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias heroku-setup='heroku config:set CLIENT_CHASE_EXTERNAL_ASSET_BASE_URL=https://client-chase-ui.s3.amazonaws.com/master/ CLIENT_CHASE=false ROOSTIFY_UI_EXTERNAL_ASSET_BASE_URL=https://roostify-ui-dev.s3.amazonaws.com/master/ VUEIFY=true VUE_IM=true -a'
-
-alias heroku-setup-chase='heroku config:set CLIENT_CHASE_EXTERNAL_ASSET_BASE_URL=https://client-chase-ui.s3.amazonaws.com/master/ CLIENT_CHASE=true ROOSTIFY_UI_EXTERNAL_ASSET_BASE_URL=https://roostify-ui-dev.s3.amazonaws.com/master/ VUEIFY=true VUE_IM=true SECURITY_IP_FILTER_ENABLED=true -a'
 
 # for rake arguments
 alias rake='noglob rake'
